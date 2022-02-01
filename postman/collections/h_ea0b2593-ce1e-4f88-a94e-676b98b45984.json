@@ -135,9 +135,31 @@
             }
         ]
     },
+    "event": [
+        {
+            "listen": "prerequest",
+            "script": {
+                "id": "b7a4101b-ca6e-4404-bca0-cce2a9414a82",
+                "type": "text/javascript",
+                "exec": [
+                    ""
+                ]
+            }
+        },
+        {
+            "listen": "test",
+            "script": {
+                "id": "9ee012df-a32a-461f-93b6-b80bfd13f6f6",
+                "type": "text/javascript",
+                "exec": [
+                    "s"
+                ]
+            }
+        }
+    ],
     "variable": [
         {
-            "id": "257a846e-8931-4d96-a101-448146915bbe",
+            "id": "a8fd0029-1be2-4ef5-8424-1b4c8960a459",
             "key": "baseUrl",
             "value": "localhost:3000",
             "type": "string"
