@@ -1,13 +1,13 @@
 openapi: 3.0.0
 info:
-  version: '1s'
+  version: '1'
   title: 'test-ext-changes-git'
 servers:
   - url: 'localhost:3000'
 paths:
   /user:
     get:
-      summary: 'Sample endpoint: Returns details about a particular user'
+      summary: 'Sample endpoint: Returns details about a particular users'
       operationId: listUser
       tags:
         - user
